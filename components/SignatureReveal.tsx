@@ -50,7 +50,7 @@ const services = [
     title: "Ménage & Linge",
     shortDesc: "Qualité hôtelière 5 étoiles, blanchisserie professionnelle...",
     fullDesc: "Une propreté sans compromis. Nos équipes de nettoyage suivent des protocoles stricts pour garantir un standard hôtelier constant.",
-    image: "https://images.unsplash.com/photo-1582735689369-0854cd028569?q=80&w=2670&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?q=80&w=2670&auto=format&fit=crop", // Stack of clean towels/bedding
     points: [
       "Ménage professionnel après chaque départ",
       "Gestion complète du linge (draps & serviettes)",
@@ -63,7 +63,7 @@ const services = [
     title: "Maintenance & Suivi",
     shortDesc: "Interventions rapides, réparations, surveillance régulière...",
     fullDesc: "Votre bien reste impeccable. Nous intervenons proactivement pour maintenir la valeur de votre investissement.",
-    image: "https://images.unsplash.com/photo-1581578731117-108f2743316d?q=80&w=2670&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?q=80&w=2532&auto=format&fit=crop", // Clean tools/hardware detail
     points: [
       "Gestion des petites réparations",
       "Intervention rapide en cas d’incident",
@@ -76,7 +76,7 @@ const services = [
     title: "Sécurité & Sérénité",
     shortDesc: "Contrôle des cautions, assurance, tranquillité d'esprit...",
     fullDesc: "Dormez sur vos deux oreilles. Nous mettons en place toutes les mesures nécessaires pour protéger votre patrimoine.",
-    image: "https://images.unsplash.com/photo-1614064641938-3e8139b7d23d?q=80&w=2574&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop", // Peaceful modern office/home for security/serenity
     points: [
       "Sélection des voyageurs",
       "Suivi des cautions et garanties",

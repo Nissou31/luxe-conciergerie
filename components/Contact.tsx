@@ -10,51 +10,31 @@ export const Contact: React.FC = () => {
           <p className="text-gray-500 font-sans font-light">Nous vous invitons à découvrir la différence.</p>
         </div>
 
-        <form className="space-y-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="relative group">
-              <input
-                type="text"
-                placeholder="Nom"
-                className="w-full bg-transparent border-b border-gray-300 py-4 text-obsidian focus:outline-none focus:border-gold transition-colors duration-300 font-serif text-lg placeholder:font-sans placeholder:text-gray-400"
-              />
-            </div>
-            <div className="relative group">
-              <input
-                type="email"
-                placeholder="Adresse Email"
-                className="w-full bg-transparent border-b border-gray-300 py-4 text-obsidian focus:outline-none focus:border-gold transition-colors duration-300 font-serif text-lg placeholder:font-sans placeholder:text-gray-400"
-              />
-            </div>
-          </div>
+        <div className="flex flex-col items-center justify-center space-y-8">
+          <p className="text-gray-500 font-sans font-light text-lg max-w-2xl mx-auto mb-8 text-center">
+            Discutons de votre projet et découvrez comment nous pouvons maximiser vos revenus.
+            Réservez directement votre créneau ci-dessous.
+          </p>
 
-          <div className="relative group">
-            <input
-              type="text"
-              placeholder="Localisation de la Propriété"
-              className="w-full bg-transparent border-b border-gray-300 py-4 text-obsidian focus:outline-none focus:border-gold transition-colors duration-300 font-serif text-lg placeholder:font-sans placeholder:text-gray-400"
-            />
-          </div>
+          {/* CALENDLY BUTTON/INTEGRATION */}
+          {/* Replace the button below with your Calendly embed code or link */}
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => alert("Lien Calendly à configurer")}
+            className="bg-obsidian text-gold border border-gold px-12 py-5 font-serif text-lg uppercase tracking-widest hover:bg-gold hover:text-obsidian transition-all duration-300 shadow-xl"
+          >
+            Réserver un Appel Découverte
+          </motion.button>
 
-          <div className="relative group">
-            <textarea
-              rows={4}
-              placeholder="Parlez-nous de vos besoins"
-              className="w-full bg-transparent border-b border-gray-300 py-4 text-obsidian focus:outline-none focus:border-gold transition-colors duration-300 font-serif text-lg placeholder:font-sans placeholder:text-gray-400 resize-none"
-            />
-          </div>
-
-          <div className="flex justify-center pt-8">
-            <motion.button
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              className="bg-obsidian text-offwhite px-12 py-4 font-sans text-sm uppercase tracking-[0.2em] hover:bg-gold hover:text-white transition-colors duration-300"
-            >
-              Demander une Consultation
-            </motion.button>
-          </div>
-        </form>
-      </div>
-    </section>
+          {/* 
+              Instructions:
+              1. Once you have your Calendly embed code.
+              2. If it's a popup, keep the button above and add the onClick handler from Calendly.
+              3. If it's an inline widget, replace the button above with the <div> provided by Calendly.
+            */}
+        </div>
+      </div >
+    </section >
   );
 };

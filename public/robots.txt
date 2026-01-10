@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.optimaconciergerie.com/sitemap.xml

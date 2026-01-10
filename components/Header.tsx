@@ -7,7 +7,7 @@ const navItems: NavItem[] = [
   { label: 'Qui sommes-nous', href: '#about' },
   { label: 'Service Signature', href: '#signature' },
   { label: 'La Différence', href: '#difference' },
-  { label: 'La Collection', href: '#collection' },
+  // { label: 'La Collection', href: '#collection' },
   { label: 'Tarifs', href: '#pricing' },
   { label: 'Contact', href: '#contact' },
 ];
@@ -88,7 +88,7 @@ export const Header: React.FC = () => {
                 </motion.a>
               ))}
             </nav>
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
@@ -97,7 +97,7 @@ export const Header: React.FC = () => {
               <Instagram className="cursor-pointer hover:text-offwhite transition-colors" />
               <Linkedin className="cursor-pointer hover:text-offwhite transition-colors" />
               <Mail className="cursor-pointer hover:text-offwhite transition-colors" />
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         )}
       </AnimatePresence>
