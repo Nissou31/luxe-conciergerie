@@ -25,9 +25,9 @@ export const Footer: React.FC = () => {
           <p>&copy; 2025 Optima Conciergerie. Tous droits réservés.</p>
           <div className="flex flex-col md:flex-row items-center gap-4 mt-4 md:mt-0">
             {/* <a href="#" className="hover:text-white transition-colors">Politique de Confidentialité</a> */}
-            <a href="https://portfolio.awahrani.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors lowercase tracking-normal">
+            {/* <a href="https://portfolio.awahrani.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors lowercase tracking-normal">
               Site by Anes AMRI
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
